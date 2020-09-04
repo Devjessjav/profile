@@ -44,9 +44,19 @@
       src:"img/xvfive.png"
     },
     {
+      name: 'Innova7',
+      url: 'http://grupoinnova7.com/home',
+      src:"innova7.jpg"
+    },
+    {
       name: 'France TKD 2018',
       url: 'https://play.google.com/store/apps/details?id=io.ionic.tkdfrance2018&hl=es',
       src:"img/tkdapp.jpg"
+    },
+    {
+      name: 'Castle photo sharing app',
+      url: 'https://play.google.com/store/apps/details?id=io.castlephoto.first&hl=es',
+      src:"img/castle.jpg"
     },
     {
       name: 'Ailewux',
