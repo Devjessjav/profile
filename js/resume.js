@@ -46,7 +46,7 @@
     {
       name: 'Innova7',
       url: 'http://grupoinnova7.com/home',
-      src:"innova7.jpg"
+      src:"img/innova7.jpg"
     },
     {
       name: 'France TKD 2018',
