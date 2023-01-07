@@ -34,6 +34,11 @@
       src:"img/faswet.png"
     },
     {
+      name: 'Esade',
+      url: 'https://credentials.esade.edu/',
+      src:"img/esade.jpg"
+    },
+    {
       name: 'Mascota Company',
       url: 'http://www.mascotascompany.com/',
       src:"img/mascotascompany.jpg"
@@ -44,19 +49,9 @@
       src:"img/xvfive.png"
     },
     {
-      name: 'Innova7',
-      url: 'http://grupoinnova7.com/home',
-      src:"img/innova7.jpg"
-    },
-    {
       name: 'France TKD 2018',
       url: 'https://play.google.com/store/apps/details?id=io.ionic.tkdfrance2018&hl=es',
       src:"img/tkdapp.jpg"
-    },
-    {
-      name: 'Castle photo sharing app',
-      url: 'https://play.google.com/store/apps/details?id=io.castlephoto.first&hl=es',
-      src:"img/castle.jpg"
     },
     {
       name: 'Ailewux',
@@ -69,7 +64,7 @@
   portafolio.forEach(element => {
     console.log(element);
    $('#tzGallery').append(`
-    <div class="col-6 col-md-4 p-2" onclick="modal('`+element.src+`', '`+element.url+`', '`+element.name+`')">
+    <div class="col-6 col-md-4 p-2 d-flex align-items-center " onclick="modal('`+element.src+`', '`+element.url+`', '`+element.name+`')">
       <a class="lightbox">
         <img src="`+element.src+`" alt="Bridge">
         <h4 class="text-center my-2">`+element.name+`</h4>
